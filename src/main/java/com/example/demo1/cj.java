@@ -28,7 +28,7 @@ public class cj extends HttpServlet {
         File file = new File(s4+"/src/main/webapp/image/3.jpeg");///WEB-INF/classes/1.jpeg///5.jpeg
 //File file=new File("src/lib/2.jpeg");
         FileOutputStream fos = new FileOutputStream(file);
-
+      //陈洁nb
         fos.write(bytes);
 
         fos.flush();
